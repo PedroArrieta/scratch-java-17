@@ -2,4 +2,6 @@
 Scratch Dockerfile to use for your Java 17 application.
 
 ### References
-Thanks to @surajrajanathrapully for the guidance.
+Thanks to
+- @juanodicio
+- @surajrajanathrapully
