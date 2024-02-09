@@ -1,7 +1,7 @@
 FROM maven:3.8.5-openjdk-17-slim as builder
 COPY . .
 RUN ...
-# Once you have compile your app and get the jar file you need to send it to scratch stage.
+# Once you have compiled your app and get the jar file you need to send it to scratch stage.
 
 FROM pedroarrieta/alpine-openjdk-17:latest as customjre
 RUN apk upgrade --available
